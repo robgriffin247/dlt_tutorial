@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dlt-tutorial"
+version = "0.1.0"
+description = "Follow along of dlt tutorial"
+authors = ["Rob Griffin <robgriffin247@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+dlt = "^0.4.4"
+duckdb = "^0.10.0"
+pandas = "^2.2.0"
+streamlit = "^1.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
